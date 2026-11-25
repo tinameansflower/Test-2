@@ -8,7 +8,12 @@ a form tag. Apply css formatting to change the background of the the paragraphs 
 Change the non-silver space around your paragraph to have a left and bottom margin equal to the height of a default character.
 -->
     <style>
-        /* Put your css here */
+        p{
+            background-color: silver;
+            color:black;
+            margin-left: 1em;
+            margin-bottom: 1em;
+        }
     </style>
 </head>
 
@@ -17,7 +22,7 @@ Change the non-silver space around your paragraph to have a left and bottom marg
     <main>
         <h1>How the Action attribute works</h1>
         <h2>... in my own words</h2>
-        <p></p>
+        <p>The action attribute tells the program where to send data collected from the user-submitted form. For example, when a user inputs data and submits the form (be it a survey or login info), the browser collects the input data and sends it as an HTTP request. This is where the "action" attribute comes in, the action specifies where the input data should be send to where the specified URL will then get and process the collected data.</p>
     </main>
 </body>
 
